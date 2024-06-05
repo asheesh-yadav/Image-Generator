@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-Generate</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="image-generator">
+    <div class="content">
+        <h1>AI Image Generator</h1>
+        <p>Convert Your Text into Image within a second using this app.</p>
+        <form action="#" class="generate-form">
+         <input type="text" class="prompt-input" placeholder="write some text" required>
+         <div class="controls">
+            <select class="img-quantity">
+                <option value="1">1 Image</option>
+                <option value="2">2 Image</option>
+                <option value="3">3 Image</option>
+                <option value="4" selected>4 Image</option>
+            </select>
+            <button type="submit" class="generate-btn">Generate</button>
+         </div>
+        </form>
+    </div>
+</section>
+<section class="image-gallery">
+    <div class="img-card">
+        <img src="img/logo.png" alt="image">
+        <a href="#" class="download-btn">
+        <img src="img/arrow.svg" height="20px" alt="download icon">
+        </a>
+    </div>
+    <div class="img-card">
+        <img src="img/logo.png" alt="image">
+        <a href="#" class="download-btn">
+        <img src="img/arrow.svg" height="25px" alt="download icon">
+        </a>
+    </div>
+    <div class="img-card">
+        <img src="img/logo.png" alt="image">
+        <a href="#" class="download-btn">
+        <img src="img/arrow.svg" height="20px" alt="download icon">
+        </a>
+    </div>
+    <div class="img-card">
+        <img src="img/logo.png" alt="image">
+        <a href="#" class="download-btn">
+        <img src="img/arrow.svg" height="20px" alt="download icon">
+        </a>
+    </div>
+</section>
+<script src="app.js"></script>
+</body>
+</html>
